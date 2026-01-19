@@ -35,3 +35,123 @@ updates:
     directory: /
     schedule:
       interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/demo-app
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/docs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/playground
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/showcase
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/chartjs-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/eslint-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/figma-plugin-sync-icons
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/figma-utils
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/flags
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/github-metrics
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/icons
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/nuxt-docs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/nuxt-docs/playground
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/nuxt
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/nuxt/playground
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/nuxt/tests/fixtures/basic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/nuxt/tests/fixtures/i18n
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/playwright-utils
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/shared
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/sit-onyx
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/storybook-utils
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vite-plugin-svg
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vitepress-theme
+    schedule:
+      interval: daily
