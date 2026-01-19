@@ -4,6 +4,9 @@ on:
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
+permissions:
+  contents: read
+
 jobs:
   changeset-action:
     name: Run Changeset Action
